@@ -1,0 +1,150 @@
+
+body{
+    width:100%;
+    height:100%;
+    margin:0;
+}
+
+
+.lateral-menu , .header-2__apps{
+    border:none;
+    background: none;
+    font-size:20px;
+    color:#888;
+    
+}
+
+.header-1{
+    display:flex;
+    flex-direction: row;
+    padding: 10px 10px;
+    align-items:center;
+    text-align:center;
+    padding-bottom:5em;
+}
+.header-1 a{
+    text-decoration:none;
+    margin-left:1.5em;
+    padding-top:3px;
+    font-size:.8em;
+    color:#888;
+    text-align: center;
+    display:inline-block;
+}
+.header-2{
+   position:absolute;
+   right:20px;
+   
+   
+    
+}
+.header-2__apps{
+    margin-right:10px;
+    position:absolute;
+    right:1em;
+    top:5px;
+}
+.header-2__userimg{
+    width:30px;
+    border-radius:100%;
+}
+
+header a:hover{
+    color:#5500ee;
+    border-bottom:1px solid #50e;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    text-align:center;
+    color:#50e;
+}
+
+.search{
+    display:flex;
+    justify-content:center;
+    margin-left:auto;
+    margin-right:auto;
+    width:90%;
+    max-width:50rem;
+    border-radius:30px;
+    border:1px solid #888;
+    height:2rem;
+}
+
+.google__txt{
+    display:inline;
+    width:10em;
+    
+}
+
+picture{
+    display:flex;
+    justify-content:center;
+    text-align:center;
+    padding-bottom:2em;
+}
+
+.lang{
+    text-align:center;
+    font-family:'Roboto' , sans-serif;
+    
+}
+
+.lang__esp-1{
+    padding-bottom:10px;
+}
+.lang__esp{
+    font-size:small;
+    word-spacing:2em;
+    color:blue;
+}
+
+.nation{
+    padding:1em .5em;
+    color:#777;
+}
+footer{
+    position:absolute;
+    bottom:0;
+    background-color: #eee;
+    width:100%;
+    padding-bottom:3rem;
+    font-family: 'Roboto' , sans-serif;
+    box-sizing: border-box;
+    
+}
+
+.line{
+    width:100%;
+    height:1px;
+    background-color:#777;
+    
+}
+.data{
+    text-align:center;
+    padding-top:10px;
+}
+
+
+.dot{
+    display:inline-block;
+    width:10px;
+    height:10px;
+    border-radius:100%;
+    background-color:#777;
+
+}
+
+.data a{
+    display:block;
+    padding-top:.5rem;
+    text-decoration:none;
+}
+
+
+
+
+
+
+
